@@ -18,3 +18,28 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.is-primary {
+	color: $primary;
+}
+
+.is-primary-bg {
+	background-color: $primary;
+	color: #fff;
+}
+
+a {
+	color: $primary;
+}
+
+a:hover {
+	color: $primary;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+	color: $primary;
+}
+
+.button.is-primary {
+	background-color: $primary;
+}
